@@ -5,7 +5,8 @@ var express = require('express')
 	app = express(),
 	mysql      = require('mysql'),
 	bodyParser=require("body-parser");
-	
+
+// connection variable	
 var connection = mysql.createConnection({
 	host     : 'localhost',
 	user     : 'root',
